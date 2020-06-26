@@ -1,0 +1,13 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.welcome{
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.card{
+    border-radius: 15px !important;
+}
