@@ -12,8 +12,8 @@ const Formulario = () => {
     };
     const validations = yup.object().shape({
         user: yup.string().email().required(),
-        password: yup.string().required()
-    })
+        password: yup.string().required().min(8)
+    });
     function handleSubmit(values) {
         alert('Fomulário validado com sucesso!!!')
     }
@@ -44,12 +44,10 @@ const Formulario = () => {
                                         className={`form-control ${errors.password && touched.password ? 'is-invalid' : ''}`}
                                         name="password"
                                         type="password"
-                                        fplaceholder="Password" />
+                                        placeholder="Password" />
                                     <ErrorMessage className="invalid-feedback" name="password" component="div" />
                                 </FormGroup>
-                                <FormGroup>
-                                    <Button block type="submit">Login</Button>
-                                </FormGroup>
+                                <Button block type="submit" className="btnLogin">Login</Button>
                             </Form>
                         )
                     }}
