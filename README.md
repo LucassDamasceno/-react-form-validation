@@ -7,7 +7,7 @@
 </p>
 </h1>
 <p>
-    No intuito de deixar o mais simples possível resolvi utilizar apenas dois inputs, onde o primeiro são aplicadas regras<br>
+    No intuito de deixar o mais simples possível resolvi utilizar apenas dois inputs, onde no primeiro são aplicadas regras<br>
     de validações referênte a um campo de email, e outro input são aplicadas regras de validações de senha. Tudo isso é feito <br>
     através de uma solução simplificada onde o Formilk é responsável por criar e estrurar o formulário e a lib Yup direciona-se<br>
     para cuidar das validações.
