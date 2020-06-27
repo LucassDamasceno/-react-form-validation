@@ -1,14 +1,3 @@
-
-<style>
-    img{
-        margin-top:20px
-    }
-    img:hover{
-        transform: scale(1.05);
-        opacity: 0.7;
-        transition: 0.5s;
-    }
-</style>
 <h1>
     Resumo
 </h1>
@@ -27,7 +16,7 @@
     Veja o projeto rodando no link na imagem abaixo
 </p>
 <p>
-    <a href="https://react-form-validation-kappa.vercel.app/">
+    <a target="_blank"  href="https://react-form-validation-kappa.vercel.app/">
         <img src="./screenshots/screen.png" alt="">
     </a>
 </p>
